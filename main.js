@@ -20,6 +20,7 @@ var pokemons = [
 for (var i = 0; i < pokemons.length; i++) {
 	if (pokemons[i].tipoDePokemon == "Fuego") {
 		console.log("¡Es pokemon de fuego!")
+		break
 	} else {
 		console.log("Te has confundido")
 	}
